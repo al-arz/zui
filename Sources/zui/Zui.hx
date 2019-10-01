@@ -1197,8 +1197,8 @@ class Zui {
 
 	function drawString(g: Graphics, text: String,
 						xOffset: Null<Float> = null, yOffset: Float = 0, align: Align = Left) {
-		var maxChars = Std.int(_w / Std.int(fontSize / 2)); // Guess width for now
-		if (text.length > maxChars) text = text.substring(0, maxChars) + "..";
+		//var maxChars = Std.int(_w / Std.int(fontSize / 2)); // Guess width for now
+		//if (text.length > maxChars) text = text.substring(0, maxChars) + "..";
 
 		if (xOffset == null) xOffset = t.TEXT_OFFSET;
 		xOffset *= SCALE;
